@@ -1,5 +1,6 @@
 ## Игнорируемые файлы
- `.gitignore`
-- `.terraform/` Папка terraform
-- `*.tfstate` and `*.tfstate.backup` файлы terraform
-- `*.tfvars` файлы с переменными
+
+В файле `.gitignore` в каталоге `terraform` указаны следующие правила игнорирования:
+
+- Все файлы и подкаталоги, находящиеся в директориях с именем `.terraform`.
+- Все файлы, имена которых заканчиваются на `.tfstate`, `.tfstate.backup`, `.tfvars`.
